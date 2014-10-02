@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name: Night and day
- * Plugin URI: http://github.com
- * Description: A brief description of the Plugin.
- * Version: The Plugin's Version Number, e.g.: 1.0
- * Author: Name Of The Plugin Author
- * Author URI: http://URI_Of_The_Plugin_Author
- * License: A "Slug" license name e.g. GPL2
+ * Plugin URI: https://github.com/HeikoMamerow/night-and-day
+ * Description: Switch distraction free writing mode in light or dark theme.
+ * Version: 0.1
+ * Author: Heiko Mamerow
+ * Author URI: http://heikomamerow.de
+ * License: GPL2
  */
