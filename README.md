@@ -1,3 +1,3 @@
 night-and-day
 =============
-Still work in progress. Please coming soon. ;-)
+Work in progress. Nothing to see yet. Comming soon. ;-)
