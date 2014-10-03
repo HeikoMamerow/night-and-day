@@ -1,0 +1,16 @@
+/* line 3, ../sass/tinymce.scss */
+html.wp-fullscreen {
+  background: #333333;
+}
+/* line 5, ../sass/tinymce.scss */
+html.wp-fullscreen body#tinymce {
+  color: #eeeeee;
+}
+/* line 8, ../sass/tinymce.scss */
+html.wp-fullscreen a {
+  color: #0074a2;
+}
+/* line 11, ../sass/tinymce.scss */
+html.wp-fullscreen .wp-caption {
+  color: #c8c8c8;
+}

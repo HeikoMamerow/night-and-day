@@ -1,0 +1,29 @@
+@import "global";
+@import "compass/css3/box-shadow";
+
+.wp-fullscreen-active {
+	#fullscreen-topbar {
+		background: lighten($bg-color-base, 5%);
+		border-bottom-color: lighten($bg-color-base, 10%);
+	}
+	.mce-toolbar .mce-ico {
+		color: darken($color-base, 40%);
+	}
+	#wp-fullscreen-buttons .mce-btn:focus,#wp-fullscreen-buttons .mce-btn:hover,.mce-toolbar .mce-btn-group .mce-btn:focus,.mce-toolbar .mce-btn-group .mce-btn:hover,.qt-fullscreen:focus,.qt-fullscreen:hover {
+		background: $bg-color-base;
+		border-color: lighten($bg-color-base, 20%);
+//		color: #222;
+//		-webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+//		box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08)
+		@include box-shadow(inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08));
+	}
+	.fullscreen-overlay {
+		background: $bg-color-base;
+	}
+	input[type=text] {
+		color: $color-base;
+	}
+}
+.wp-fullscreen-active.wp-dfw-show-ui .wp-editor-container, .wp-fullscreen-active.wp-dfw-show-ui .wp-fullscreen-title {
+	border-color: lighten($bg-color-base, 15%) !important;
+}

@@ -1,0 +1,14 @@
+@import "global";
+
+html.wp-fullscreen {
+	background: $bg-color-base;
+	body#tinymce {
+		color: $color-base;
+	}
+	a {
+		color: $color-link;
+	}
+	.wp-caption {
+		color: darken($color-base, 15%);
+	}
+}
