@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Night and day
  * Plugin URI: https://github.com/HeikoMamerow/night-and-day
- * Description: Switch distraction free writing mode in light or dark theme.
+ * Description: Switch distraction free writing mode as light or dark theme.
  * Version: 0.0
  * Author: Heiko Mamerow
  * Author URI: http://heikomamerow.de

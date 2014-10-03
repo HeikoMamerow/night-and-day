@@ -1,6 +1,6 @@
 Night and day
 =============
-Switch distraction free writing mode in light or dark theme.
+This WordPress plugin allows, to switch distraction free writing mode as light or dark theme.
 
 Beware!
 -------
