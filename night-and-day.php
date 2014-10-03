@@ -10,7 +10,7 @@
  */
 
 
-// Add theme support for custom CSS in the TinyMCE visual editor
+// Add theme support for custom CSS in the TinyMCE visual editor.
 function tiny_mce_css( $mce_css ) {
 	if ( ! empty( $mce_css ) )
 		$mce_css .= ',';
@@ -20,7 +20,7 @@ function tiny_mce_css( $mce_css ) {
 add_filter( 'mce_css', 'tiny_mce_css' );
 
 
-// Enqeue style for the fullscreen overlay
+// Enqeue style for the fullscreen overlay.
 function overlay_css() {
 	wp_enqueue_style( 'night-and-day', plugins_url( 'css/overlay.css', __FILE__ ) );
 }
