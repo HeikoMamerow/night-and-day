@@ -1,7 +1,7 @@
 {
-  "name": "night-and-day",
+  "name": "Night and day",
   "version": "0.0.0",
-  "description": "",
+  "description": "A WordPress Plugin. Switch distraction free writing mode in light or dark theme.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "https://github.com/HeikoMamerow/night-and-day.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Heiko Mamerow",
+  "license": "GPL2",
   "bugs": {
     "url": "https://github.com/HeikoMamerow/night-and-day/issues"
   },
