@@ -3,28 +3,45 @@
   background: #404040;
   border-bottom-color: #4d4d4d;
 }
-/* line 9, ../sass/overlay.scss */
+/* line 10, ../sass/overlay.scss */
+.wp-fullscreen-active .wp-core-ui .button.active,
+.wp-fullscreen-active .wp-core-ui .button.active:hover {
+  background: #404040;
+  border-color: #737373;
+  -webkit-box-shadow: inset 0 1px 0 #737373, 0 1px 0 rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 1px 0 #737373, 0 1px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px 0 #737373, 0 1px 0 rgba(0, 0, 0, 0.08);
+  color: #888888;
+}
+/* line 16, ../sass/overlay.scss */
+.wp-fullscreen-active .wp-core-ui a.button {
+  color: #888888;
+}
+/* line 21, ../sass/overlay.scss */
+.wp-fullscreen-active .wp-core-ui a.button,
+.wp-fullscreen-active #wp-fullscreen-buttons .mce-btn:focus,
+.wp-fullscreen-active #wp-fullscreen-buttons .mce-btn:hover {
+  background: #333333;
+  border-color: #666666;
+  -webkit-box-shadow: inset 0 1px 0 #666666, 0 1px 0 rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 1px 0 #666666, 0 1px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px 0 #666666, 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+/* line 26, ../sass/overlay.scss */
 .wp-fullscreen-active .mce-toolbar .mce-ico {
   color: #888888;
 }
-/* line 12, ../sass/overlay.scss */
-.wp-fullscreen-active #wp-fullscreen-buttons .mce-btn:focus, .wp-fullscreen-active #wp-fullscreen-buttons .mce-btn:hover, .wp-fullscreen-active .mce-toolbar .mce-btn-group .mce-btn:focus, .wp-fullscreen-active .mce-toolbar .mce-btn-group .mce-btn:hover, .wp-fullscreen-active .qt-fullscreen:focus, .wp-fullscreen-active .qt-fullscreen:hover {
-  background: #333333;
-  border-color: #666666;
-  -webkit-box-shadow: inset 0 1px 0 white, 0 1px 0 rgba(0, 0, 0, 0.08);
-  -moz-box-shadow: inset 0 1px 0 white, 0 1px 0 rgba(0, 0, 0, 0.08);
-  box-shadow: inset 0 1px 0 white, 0 1px 0 rgba(0, 0, 0, 0.08);
-}
-/* line 17, ../sass/overlay.scss */
+/* line 29, ../sass/overlay.scss */
 .wp-fullscreen-active .fullscreen-overlay {
   background: #333333;
 }
-/* line 20, ../sass/overlay.scss */
+/* line 32, ../sass/overlay.scss */
 .wp-fullscreen-active input[type=text] {
   color: #eeeeee;
 }
 
-/* line 24, ../sass/overlay.scss */
-.wp-fullscreen-active.wp-dfw-show-ui .wp-editor-container, .wp-fullscreen-active.wp-dfw-show-ui .wp-fullscreen-title {
+/* line 37, ../sass/overlay.scss */
+.wp-fullscreen-active.wp-dfw-show-ui .wp-editor-container,
+.wp-fullscreen-active.wp-dfw-show-ui .wp-fullscreen-title {
   border-color: #595959 !important;
 }
