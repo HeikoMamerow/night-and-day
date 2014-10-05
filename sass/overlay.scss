@@ -1,5 +1,5 @@
 @import "global";
-@import "compass/css3/box-shadow";
+@import "compass/css3/box-shadow"; // You need compass: http://compass-style.org/reference/compass/css3/box_shadow/
 
 .wp-fullscreen-active {
 	#fullscreen-topbar {
@@ -33,7 +33,9 @@
 		color: $color-base;
 	}
 }
-.wp-fullscreen-active.wp-dfw-show-ui .wp-editor-container,
-.wp-fullscreen-active.wp-dfw-show-ui .wp-fullscreen-title {
-	border-color: lighten($bg-color-base, 15%) !important;
+.wp-fullscreen-active.wp-dfw-show-ui {
+	.wp-editor-container,
+	.wp-fullscreen-title {
+		border-color: lighten($bg-color-base, 15%) !important;
+	}
 }
