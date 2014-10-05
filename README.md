@@ -4,7 +4,7 @@ This WordPress plugin (will) allows to switch distraction free writing mode as l
 ## Beware!
 Work in progress. Nothing to see yet. Comming soon. ;-)
 
-## Milestones
+## Todoas
 - [x] Stylesheet dark theme
 - [ ] Theme switch 
 - [ ] Store option in db
