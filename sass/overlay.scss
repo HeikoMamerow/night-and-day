@@ -33,9 +33,13 @@
 		color: $color-base;
 	}
 }
-.wp-fullscreen-active.wp-dfw-show-ui {
+body.wp-fullscreen-active.wp-dfw-show-ui {
 	.wp-editor-container,
 	.wp-fullscreen-title {
-		border-color: lighten($bg-color-base, 15%) !important;
+		border-color: lighten($bg-color-base, 15%);
 	}
+}
+
+body .wp-editor-expand #wp-content-editor-container {
+	border-bottom: 1px dashed lighten($bg-color-base, 15%);
 }
