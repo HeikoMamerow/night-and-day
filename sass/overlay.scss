@@ -32,6 +32,10 @@
 	input[type=text] {
 		color: $color-base;
 	}
+	.wp-editor-area {
+		background: $bg-color-base;
+		color: $color-base;
+	}
 }
 body.wp-fullscreen-active.wp-dfw-show-ui {
 	.wp-editor-container,

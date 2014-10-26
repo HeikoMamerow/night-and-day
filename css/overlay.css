@@ -39,14 +39,19 @@
 .wp-fullscreen-active input[type=text] {
   color: #eee;
 }
+/* line 35, ../sass/overlay.scss */
+.wp-fullscreen-active .wp-editor-area {
+  background: #333;
+  color: #eee;
+}
 
-/* line 37, ../sass/overlay.scss */
+/* line 41, ../sass/overlay.scss */
 body.wp-fullscreen-active.wp-dfw-show-ui .wp-editor-container,
 body.wp-fullscreen-active.wp-dfw-show-ui .wp-fullscreen-title {
   border-color: #595959;
 }
 
-/* line 43, ../sass/overlay.scss */
+/* line 47, ../sass/overlay.scss */
 body .wp-editor-expand #wp-content-editor-container {
   border-bottom: 1px dashed #595959;
 }
