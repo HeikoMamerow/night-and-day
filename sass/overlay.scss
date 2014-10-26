@@ -42,7 +42,7 @@ body.wp-fullscreen-active.wp-dfw-show-ui {
 	.wp-fullscreen-title {
 		border-color: lighten($bg-color-base, 15%);
 	}
-}
-body .wp-editor-expand #wp-content-editor-container {
-	border-bottom: 1px dashed lighten($bg-color-base, 15%);
+	#wp-content-editor-container {
+		border-bottom: 1px dashed lighten($bg-color-base, 15%);
+	}
 }

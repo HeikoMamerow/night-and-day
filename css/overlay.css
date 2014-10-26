@@ -50,8 +50,7 @@ body.wp-fullscreen-active.wp-dfw-show-ui .wp-editor-container,
 body.wp-fullscreen-active.wp-dfw-show-ui .wp-fullscreen-title {
   border-color: #595959;
 }
-
-/* line 46, ../sass/overlay.scss */
-body .wp-editor-expand #wp-content-editor-container {
+/* line 45, ../sass/overlay.scss */
+body.wp-fullscreen-active.wp-dfw-show-ui #wp-content-editor-container {
   border-bottom: 1px dashed #595959;
 }
