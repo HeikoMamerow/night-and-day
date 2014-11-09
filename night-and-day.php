@@ -22,7 +22,7 @@ add_filter( 'mce_css', 'tiny_mce_css' );
 
 // Enqeue style for the fullscreen overlay.
 function overlay_css() {
-	wp_enqueue_style( 'night-and-day', plugins_url( 'css/overlay.css', __FILE__ ) );
+	wp_enqueue_style( 'night-and-day', plugins_url( 'css/overlay.css', __FILE__, '1.0.0' ) );
 }
 
 add_action( 'admin_enqueue_scripts', 'overlay_css' );
